@@ -1,0 +1,29 @@
+.canvas {
+    height: 640px;
+    width: 640px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+}
+
+.row {
+    display: flex;
+    flex: 1;
+}
+
+.pixel {
+    background-color: white;
+    flex: 1;
+}
+
+.buttons {
+    margin-bottom: 8px;
+}
+
+body {
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
